@@ -1,0 +1,102 @@
+/*import { 
+  CloudRain, 
+  Coffee, 
+  Music2, 
+  Waves, 
+  Flame, 
+  Wind, 
+  Trees, 
+  Train, 
+  Car,
+  Bird,
+  Moon,
+  Heart
+} from "lucide-react-native";*/
+import { SoundData } from "@/types/sound";
+
+export const soundData: SoundData[] = [
+  {
+    id: "rain",
+    name: "Rain",
+    icon: "rainy",
+    url: "https://cdn.pixabay.com/download/audio/2024/10/30/audio_42e6870f29.mp3?filename=calming-rain-257596.mp3",
+    color: "#4A90E2",
+  },
+  {
+    id: "coffee",
+    name: "Coffee Shop",
+    icon: "cafe",
+    url: "https://cdn.pixabay.com/download/audio/2022/03/14/audio_1ea7b2901d.mp3?filename=coffee-shop-70190.mp3",
+    color: "#8B4513",
+  },
+  {
+    id: "lofi",
+    name: "Lofi Beats",
+    icon: "musical-notes",
+    url: "https://cdn.pixabay.com/download/audio/2025/06/18/audio_59e7bd8f8d.mp3?filename=lofi-relax-beat-loop-bpm-88-eb-major-ii-v-i-361752.mp3",
+    color: "#FF6B6B",
+  },
+  {
+    id: "waves",
+    name: "Ocean Waves",
+    icon: "water",
+    url: "https://cdn.pixabay.com/download/audio/2025/07/18/audio_91fda6f9b0.mp3?filename=ocean-waves-376898.mp3",
+    color: "#20B2AA",
+  },
+  {
+    id: "campfire",
+    name: "Campfire",
+    icon: "flame",
+    url: "https://cdn.pixabay.com/download/audio/2025/06/08/audio_3684eb06b9.mp3?filename=spring-forest-campfire-356884.mp3",
+    color: "#FF4500",
+  },
+  {
+    id: "wind",
+    name: "Wind",
+    icon: "leaf",
+    url: "https://cdn.pixabay.com/download/audio/2025/08/07/audio_70b035e695.mp3?filename=wind-gust-386158.mp3",
+    color: "#87CEEB",
+  },
+  {
+    id: "forest",
+    name: "Forest",
+    icon: "leaf",
+    url: "https://cdn.pixabay.com/download/audio/2025/06/06/audio_b4ffb37ac1.mp3?filename=forest-wind-with-crickets-and-cuckoo-355613.mp3",
+    color: "#228B22",
+  },
+  {
+    id: "train",
+    name: "Train",
+    icon: "bus",
+    url: "https://cdn.pixabay.com/download/audio/2025/05/10/audio_553f294aae.mp3?filename=railway-train-339502.mp3",
+    color: "#696969",
+  },
+  {
+    id: "highway",
+    name: "Highway",
+    icon: "car",
+    url: "https://cdn.pixabay.com/download/audio/2021/08/09/audio_21420689ba.mp3?filename=highway-ambience-6972.mp3",
+    color: "#2F4F4F",
+  },
+  {
+    id: "birds",
+    name: "Birds",
+    icon: "logo-twitter",
+    url: "https://cdn.pixabay.com/download/audio/2022/03/09/audio_c610232c26.mp3?filename=birds-chirping-ambiance-26052.mp3",
+    color: "#32CD32",
+  },
+  {
+    id: "night",
+    name: "Night",
+    icon: "moon",
+    url: "https://cdn.pixabay.com/download/audio/2022/02/07/audio_51b5acd355.mp3?filename=night-ambience-17064.mp3",
+    color: "#191970",
+  },
+  {
+    id: "meditation",
+    name: "Meditation",
+    icon: "heart",
+    url: "https://cdn.pixabay.com/download/audio/2022/06/24/audio_d913def60e.mp3?filename=uplifting-pad-texture-113842.mp3",
+    color: "#DA70D6",
+  },
+];
